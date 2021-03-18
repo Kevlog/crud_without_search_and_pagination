@@ -1,0 +1,9 @@
+-----------------------------------------------------------
+File library.php
+
+$this->db = new PDO('mysql:host=localhost;dbname=library','root','mysql');
+
+Diganti menjadi 
+
+$this->db = new PDO('mysql:host=localhost;dbname=library','root','');
+-----------------------------------------------------------
